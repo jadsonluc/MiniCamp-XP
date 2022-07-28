@@ -24,7 +24,30 @@
 
         //Quando não sabemos qual o índice da array como inserimos um novo valor a lista?
 
-        
+        carros[carros.length] = "Corsa"
 
+        console.log("último elemento do array: " + carros[carros.length -1])
+
+        //Existe outra forma de inserir elementos dentro de uma array com a função push() -> sintaxe: array.push(elemento)
+
+        carros.push("Polo")
+        console.log(carros)
+
+        //Como podemos remover o último elemento de array? Usando a função pop() 
+        //sintaxe: array.pop();
+
+        console.log(carros.pop())
+        console.log(carros)
+
+        //Como inserir elementos ao fim da array? usamos array.unshift(elemento)
+
+        carros.unshift("Doblô")
+        console.log(carros)
+
+        //Como remover o primeiro elemento da array? array.shift(elemento)
+
+        
+        console.log(carros.shift())//Para imprimir o primeiro elemento removido
+        console.log(carros)
     </script>
 </html>
