@@ -1,0 +1,23 @@
+<html>
+    <script>
+        /*
+        1 - Receber um número como parâmetro
+        2 - Executar um FOR na lista e para cada elemento verificar se é igual ao número buscado
+        3 - Quando encontrar, interromper a busca e retornar true
+        4 - Se chegar ao fim sem encontrar o número retornar false
+        */
+        var lista = [8, 7, 2, 456, 78, 4578, 444]
+
+        function verificaNumero(numero) {
+            var existe = false
+            for(var i = 0; i < lista.length; i++ ){
+                console.log(i)
+                if(lista[i] === numero) {
+                    existe = true
+                    break;
+                }
+            }
+            return existe
+        }
+    </script>
+</html>
