@@ -10,21 +10,4 @@ function verificaNumeroPrimo(numero) {
     }
 }
 
-//Outra forma
 
-function numeroPrimo(num) {
-    var divisivel = 0;
-
-    for(var i = 2; i < num; i++){
-        if(num % i === 0){
-            divisivel++
-        }}
-        if(divisivel === 0) {
-            console.log(`O número ${num} é primo.`)
-        } else {
-            console.log(`O número ${num} não é primo`)
-        }
-}
-    
-
-     
